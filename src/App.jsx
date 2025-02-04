@@ -13,6 +13,10 @@ function App() {
     <Router>
       <NavbarComponent />
       <ImageCard />
+      
+<h1 class="text-3xl font-bold underline">
+Hello world!
+</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,5 +25,7 @@ function App() {
     </Router>
   );
 }
+
+
 
 export default App;
